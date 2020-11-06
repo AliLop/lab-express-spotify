@@ -1,0 +1,17 @@
+<div class="container">
+    <h2 class="title-heading">Tracks for: {{tracksResults.0.artists.0.name}} </h2>
+
+{{#each tracksResults}}
+<div class="row">
+<h5>{{name}} </h5>
+
+<audio controls> 
+    <source src={{preview_url}}> 
+</audio>
+</div>
+{{/each}}
+
+
+
+
+

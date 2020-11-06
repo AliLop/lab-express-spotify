@@ -1,0 +1,65 @@
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+h5 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/spotify-background.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro-form {
+    text-align: center;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    margin-left: -20%;
+    position: absolute;
+    padding: 50px 90px;
+    background-color: rgba(246, 248, 250, 0.5) ; 
+    border: 1px rgba(246, 248, 250);
+    margin-top: -50px;
+    /* RGBA a= opacity */
+}
+
+button {
+    background-color: #FA6863;
+    border: #FA6863;
+    color: white;
+    padding: 5px 12px;
+}
+
+input:active,
+input:focus,
+input:focus:active,
+input {
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 1px rgba(246, 248, 250);
+    outline: 1px rgba(246, 248, 250);
+    
+}
+
+.title-heading {
+        text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.card-body {
+    background-color: #4D4D4D;
+    color: white;
+    text-align: center;
+}

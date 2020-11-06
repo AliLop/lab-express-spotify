@@ -1,0 +1,19 @@
+<div class="container">
+    <h2 class="title-heading">Albums for: {{albumsResults.0.artists.0.name}}</h2>
+    <div class="row">
+        {{!-- I can iterate as it is a list  --}}
+        {{#each albumsResults}}
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top img-card" src={{images.0.url}} />
+                {{!-- No need for brackets but need imges.0.url  USE CONSOLE:LOG --}}
+                <div class="card-body">
+                    <h5 class="card-title">{{name}}</h5>
+                    <button><a href="/album/{{id}}"> View Tracks</a></button>
+                    {{!-- atistID No! // DYNAMIC PARAM // {{param retrieved --}}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
